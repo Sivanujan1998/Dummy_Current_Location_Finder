@@ -1,0 +1,16 @@
+{
+  "name": "dummy-current-location-finder",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.0.3"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "ol": "latest"
+  }
+}

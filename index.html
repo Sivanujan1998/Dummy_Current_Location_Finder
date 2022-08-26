@@ -1,0 +1,22 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using OpenLayers with Vite</title>
+  </head>
+  <body>
+    <div id="map">
+      <div class="button_label">
+        <button id="button_find" class="button_find buttons" onclick="FindmyLocation()">Find My Location</button>
+        <button id="button_back" class="button_back buttons" onclick="BackToMap()" hidden>Back to Map</button>
+      </div>
+        <div id="info" style="display: none;"></div>
+    </div>
+    <script type="module" src="./main.js"></script>
+    <script type = "text/javascript" src="./find.js"></script>
+  </body>
+</html>
